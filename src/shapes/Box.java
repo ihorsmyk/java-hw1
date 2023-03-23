@@ -24,9 +24,8 @@ public class Box extends Shape {
         if (super.getVolume() >= this.getVolumeOfInternalShapes() + shape.getVolume()) {
             this.shapes.add(shape);
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     @Override
