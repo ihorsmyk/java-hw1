@@ -1,5 +1,5 @@
 package converter;
 
-public interface Converter {
+interface Converter {
     public double convert(double valueInCelsius);
 }

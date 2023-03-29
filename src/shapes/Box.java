@@ -1,6 +1,7 @@
 package shapes;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Box extends Shape {
     private ArrayList<Shape> shapes = new ArrayList<>();
@@ -11,7 +12,7 @@ public class Box extends Shape {
 
     public double getVolumeOfInternalShapes() {
         double volumeOfInternalShapes = 0;
-        if (shapes.size() != 0) {
+        if (!shapes.isEmpty()) {
             for (Shape shape : this.shapes) {
                 volumeOfInternalShapes += shape.getVolume();
             }
@@ -20,6 +21,9 @@ public class Box extends Shape {
     }
 
     public boolean add(Shape shape) {
+        if (Objects.isNull(shape)) {
+            throw new IllegalArgumentException("shape can not bu null");
+        }
         double volumeOfAllShapes = 0;
         if (super.getVolume() >= this.getVolumeOfInternalShapes() + shape.getVolume()) {
             this.shapes.add(shape);

@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d37f394-ea33-4580-b7b8-aed813c3825e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-hw1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/converter/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/converter/Fahrenheit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/converter/Kelvin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/converter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/SolidOfRevolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Box.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
